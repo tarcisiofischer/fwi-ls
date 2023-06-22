@@ -13,7 +13,7 @@ compile the C++ code used to improve Python performance in specific contexts.
 The C++ bindings are compiled and placed on `src/cpp/build`. This path must be on `PYTHONPATH`.
 
 
-###### Level Set Evolution Algorithm
+## Level Set Evolution Algorithm
 
 A Level Set function is used to approximate the solution. For each optimization step, the Level Set evolution direction is
 calculated using an "evolution velocity", which is determined using the Diffusion-Reaction equation, which depends on
@@ -22,7 +22,7 @@ guess, the algorithm will then search for a more suitable step, to guarantee tha
 optimization procedure is decreased.
 
 
-###### Useful tools
+## Useful tools
 
 - `inv compile` Compiles the project using cmake and gcc
 - `inv clean` Cleanup compilation artifacts
